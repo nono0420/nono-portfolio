@@ -4,6 +4,9 @@ html body {
     height: auto;
     font-family: 微軟正黑體 !important;
     position: relative;
+    border: 12px solid #000000;
+    border-bottom: none;
+    box-sizing: border-box;
 
     header {
       width: 100%;
@@ -17,7 +20,7 @@ html body {
         display: flex;
 
         .main-left {
-          width: 30%;
+          width: 23%;
           height: 550px;
           z-index: 1000;
 
@@ -38,8 +41,8 @@ html body {
             
               /*Styles for the hamburger lines*/
               .menu-btn-line{ 
-                height: .5em; 
-                background-color: #000000; 
+                height: .2em; 
+                background-color: #98c3d4; 
                 margin-bottom: .5em; 
               }
               /*No margin-bottom for last hamburger line.*/
@@ -49,10 +52,10 @@ html body {
             #menu{ 
               position: absolute; 
               top: 7em; left: 1em; 
-              border: .5em solid #000000; 
+              border: .5em solid #98c3d4; 
               width: 10em;
               padding: 1em;
-              background: #eeeeee;
+              background: #ffffff;
               z-index: 1000;
             }
               /*List*/
@@ -105,17 +108,17 @@ html body {
           }
         }
         .main-right {
-          width: 70%;
+          width: 77%;
           height: 550px;
-          transition: 1s;
+          // transition: 1s;
 
-          &:hover {
-            width: 74%;
-          }
+          // &:hover {
+          //   width: 74%;
+          // }
 
           .sea-picture {
             height: 550px;
-            background: url(../image/sea.jpg)no-repeat;
+            background: url(../image/sea.jpg)no-repeat top center;
             background-size: cover;
           }
         }
