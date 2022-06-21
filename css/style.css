@@ -69,41 +69,109 @@ html body header .header-top {
   display: flex;
 }
 html body header .header-top .main-left {
-  width: 33%;
+  width: 30%;
   height: 550px;
 }
 html body header .header-top .main-left .hamburger {
-  height: 30%;
+  height: 33%;
+  /*Cursor on toggle button hover*/
+  /*Changing color of hamburger lines on hover*/
+  /*Styles for the hamburger lines*/
+  /*No margin-bottom for last hamburger line.*/
+  /*List container*/
+  /*List*/
+  /*List items*/
+  /*Subscribe link*/
+  /*Cursor and text undelrine on hover*/
+  /*Background and text colour change on click*/
+}
+html body header .header-top .main-left .hamburger #menu-btn {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  width: 3em;
+  padding: 1.5em;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+html body header .header-top .main-left .hamburger #menu-btn:hover {
+  cursor: pointer;
+}
+html body header .header-top .main-left .hamburger .menu-btn-line {
+  height: 0.5em;
+  background-color: #000000;
+  margin-bottom: 0.5em;
+}
+html body header .header-top .main-left .hamburger .menu-btn-line:last-child {
+  margin-bottom: 0;
+}
+html body header .header-top .main-left .hamburger #menu {
+  position: absolute;
+  top: 7em;
+  left: 1em;
+  border: 0.5em solid #000000;
+  width: 10em;
+  padding: 1em;
+  background: #eeeeee;
+  z-index: 1000;
+}
+html body header .header-top .main-left .hamburger #menu ul {
+  padding: 0;
+  margin: 0;
+}
+html body header .header-top .main-left .hamburger #menu ul li {
+  list-style-type: none;
+  left: 0;
+  padding: 0.5em;
+  color: #000000;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+html body header .header-top .main-left .hamburger #menu ul li:last-child {
+  margin-top: 0.5em;
+  padding-top: 1em;
+  border-top: 1px solid #000000;
+}
+html body header .header-top .main-left .hamburger #menu ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 html body header .header-top .main-left .text-1 {
   height: 33%;
   text-align: center;
+  padding-left: 2em;
 }
 html body header .header-top .main-left .text-1 .text-box-1 {
   font-size: 40px;
-  top: -20%;
-  -webkit-transform: translateY(20%);
-          transform: translateY(20%);
+  text-align: left;
 }
 html body header .header-top .main-left .text-2 {
   height: 33%;
   text-align: center;
+  padding-left: 2em;
 }
 html body header .header-top .main-left .text-2 .text-box-2 {
   font-size: 16px;
-  top: -40%;
-  -webkit-transform: translateY(40%);
-          transform: translateY(40%);
+  text-align: left;
 }
 html body header .header-top .main-right {
   width: 70%;
+  height: 550px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+html body header .header-top .main-right:hover {
+  width: 74%;
+}
+html body header .header-top .main-right .sea-picture {
   height: 550px;
   background: url(../image/sea.jpg) no-repeat;
   background-size: cover;
 }
 html body header .header-bottom {
   width: 100%;
-  height: 300px;
+  height: 25vw;
   background: url(../image/imnono.png) no-repeat;
   background-size: 100%;
 }

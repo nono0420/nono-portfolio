@@ -19,7 +19,21 @@
      <div class="header-top">
        <div class="main-left">
           <div class="sea-picture"></div>
-          <div class="hamburger"></div>
+          <div class="hamburger">
+            <div id="menu-btn">
+              <div class="menu-btn-line"></div>
+              <div class="menu-btn-line"></div>
+              <div class="menu-btn-line"></div>
+          </div>
+            <nav id="menu">
+              <ul>
+                  <li>Home</li>
+                  <li>Portfolio</li>
+                  <li>About</li>
+                  <li>Contect</li>
+              </ul>
+          </nav>
+          </div>
           <div class="text-1">
             <div class="text-box-1">
               2022<br>PORT</br>FOLIO</br>
@@ -37,5 +51,16 @@
       <div class="nonotext"></div>
     </div>
    </header>
+
+
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <script>
+     $("#menu").hide();
+
+    /*When menu button is clicked, toggle the menu*/
+    $("#menu-btn").click(function(){
+      $("#menu").slideToggle();
+    });
+   </script>
 </body>
 </html>
