@@ -57,8 +57,53 @@ html body {
   position: relative;
 }
 html body header {
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  border: 5px solid black;
+  width: 100%;
+  height: auto;
+}
+html body header .header-top {
+  width: 100%;
+  height: 550px;
+  background: #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body header .header-top .main-left {
+  width: 33%;
+  height: 550px;
+}
+html body header .header-top .main-left .hamburger {
+  height: 30%;
+}
+html body header .header-top .main-left .text-1 {
+  height: 33%;
+  text-align: center;
+}
+html body header .header-top .main-left .text-1 .text-box-1 {
+  font-size: 40px;
+  top: -20%;
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+html body header .header-top .main-left .text-2 {
+  height: 33%;
+  text-align: center;
+}
+html body header .header-top .main-left .text-2 .text-box-2 {
+  font-size: 16px;
+  top: -40%;
+  -webkit-transform: translateY(40%);
+          transform: translateY(40%);
+}
+html body header .header-top .main-right {
+  width: 70%;
+  height: 550px;
+  background: url(../image/sea.jpg) no-repeat;
+  background-size: cover;
+}
+html body header .header-bottom {
+  width: 100%;
+  height: 300px;
+  background: url(../image/imnono.png) no-repeat;
+  background-size: 100%;
 }
