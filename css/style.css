@@ -55,7 +55,7 @@ html body {
   height: auto;
   font-family: 微軟正黑體 !important;
   position: relative;
-  border: 12px solid #000000;
+  border: 8px solid #3f2c2e;
   border-bottom: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -78,6 +78,10 @@ html body header .header-top .main-left {
   height: 550px;
   z-index: 1000;
 }
+html body header .header-top .main-left .hamburger-in {
+  height: 33%;
+  display: inline;
+}
 html body header .header-top .main-left .hamburger {
   height: 33%;
   /*Cursor on toggle button hover*/
@@ -93,20 +97,21 @@ html body header .header-top .main-left .hamburger {
 }
 html body header .header-top .main-left .hamburger #menu-btn {
   position: absolute;
-  left: 1em;
+  left: 0.3em;
   top: 1em;
   width: 3em;
   padding: 1.5em;
   border-radius: 100%;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  position: fixed;
 }
 html body header .header-top .main-left .hamburger #menu-btn:hover {
   cursor: pointer;
 }
 html body header .header-top .main-left .hamburger .menu-btn-line {
   height: 0.2em;
-  background-color: #98c3d4;
+  background-color: #000000;
   margin-bottom: 0.5em;
 }
 html body header .header-top .main-left .hamburger .menu-btn-line:last-child {
@@ -121,6 +126,7 @@ html body header .header-top .main-left .hamburger #menu {
   padding: 1em;
   background: #ffffff;
   z-index: 1000;
+  position: fixed;
 }
 html body header .header-top .main-left .hamburger #menu ul {
   padding: 0;
@@ -146,7 +152,7 @@ html body header .header-top .main-left .hamburger #menu ul li:hover {
 html body header .header-top .main-left .text-1 {
   height: 33%;
   text-align: center;
-  padding-left: 2em;
+  padding-left: 1em;
 }
 html body header .header-top .main-left .text-1 .text-box-1 {
   font-size: 40px;
@@ -155,7 +161,7 @@ html body header .header-top .main-left .text-1 .text-box-1 {
 html body header .header-top .main-left .text-2 {
   height: 33%;
   text-align: center;
-  padding-left: 2em;
+  padding-left: 1em;
 }
 html body header .header-top .main-left .text-2 .text-box-2 {
   font-size: 16px;
@@ -172,7 +178,65 @@ html body header .header-top .main-right .sea-picture {
 }
 html body header .header-bottom {
   width: 100%;
-  height: 25vw;
+  height: 14vw;
   background: url(../image/imnono.png) no-repeat;
   background-size: 100%;
+}
+html body header .marquee {
+  width: 100%;
+  margin-top: 20px;
+}
+html body header .marquee marquee {
+  color: #000000;
+  font-size: 23px;
+  font-weight: 400;
+}
+html body main {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+html body main .logo-main {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+html body main .logo-main .logo-1 {
+  width: 33.4%;
+  height: 25vw;
+  background: url(../image/logo1.jpg) no-repeat top center;
+  background-size: cover;
+}
+html body main .logo-main .logo-2 {
+  width: 33.3%;
+  height: 25vw;
+  background: url(../image/logo2.png) no-repeat top center;
+  background-size: cover;
+}
+html body main .logo-main .logo-3 {
+  width: 33.3%;
+  height: 25vw;
+  background: url(../image/logo3.jpg) no-repeat top center;
+  background-size: cover;
+}
+html body main .logo-main .logo-4 {
+  width: 33.4%;
+  height: 33vw;
+  background: url(../image/logodesign.jpg) no-repeat top center;
+  background-size: 100%;
+}
+html body main .logo-main .logo-5 {
+  width: 33.3%;
+  height: 33vw;
+  background: url(../image/logo4.jpg) no-repeat top center;
+  background-size: 100%;
+}
+html body main .logo-main .logo-6 {
+  width: 33.3%;
+  height: 33vw;
+  background: url(../image/logo5.jpg) no-repeat top center;
+  background-size: cover;
 }
