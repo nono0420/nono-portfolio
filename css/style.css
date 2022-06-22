@@ -266,6 +266,9 @@ html body main .logo-main .logo-9 {
     width: 50%;
     height: 40vw;
   }
+  html body main .logo-main .logo-5 {
+    display: none;
+  }
 }
 html body main .banner-main {
   height: auto;
