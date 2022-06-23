@@ -60,12 +60,25 @@ html body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+html body #GotoTop {
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 60%;
+  position: fixed;
+  right: 8px;
+  bottom: 13px;
+  font-size: 6.5vh;
+  text-align: center;
+  color: #000;
+}
 html body header {
   width: 100%;
   height: auto;
   font-family: 微軟正黑體 !important;
 }
-html body header .header-top {
+html body header #header-top {
   width: 100%;
   height: 550px;
   background: #eeeeee;
@@ -73,16 +86,16 @@ html body header .header-top {
   display: -ms-flexbox;
   display: flex;
 }
-html body header .header-top .main-left {
+html body header #header-top .main-left {
   width: 23%;
   height: 550px;
   z-index: 1000;
 }
-html body header .header-top .main-left .hamburger-in {
+html body header #header-top .main-left .hamburger-in {
   height: 33%;
   display: inline;
 }
-html body header .header-top .main-left .hamburger {
+html body header #header-top .main-left .hamburger {
   height: 33%;
   /*Cursor on toggle button hover*/
   /*Changing color of hamburger lines on hover*/
@@ -95,7 +108,7 @@ html body header .header-top .main-left .hamburger {
   /*Cursor and text undelrine on hover*/
   /*Background and text colour change on click*/
 }
-html body header .header-top .main-left .hamburger #menu-btn {
+html body header #header-top .main-left .hamburger #menu-btn {
   position: absolute;
   left: 0.3em;
   top: 1em;
@@ -106,18 +119,18 @@ html body header .header-top .main-left .hamburger #menu-btn {
   transition: all 0.2s ease-out;
   position: fixed;
 }
-html body header .header-top .main-left .hamburger #menu-btn:hover {
+html body header #header-top .main-left .hamburger #menu-btn:hover {
   cursor: pointer;
 }
-html body header .header-top .main-left .hamburger .menu-btn-line {
+html body header #header-top .main-left .hamburger .menu-btn-line {
   height: 0.2em;
   background-color: #000000;
   margin-bottom: 0.5em;
 }
-html body header .header-top .main-left .hamburger .menu-btn-line:last-child {
+html body header #header-top .main-left .hamburger .menu-btn-line:last-child {
   margin-bottom: 0;
 }
-html body header .header-top .main-left .hamburger #menu {
+html body header #header-top .main-left .hamburger #menu {
   position: absolute;
   top: 7em;
   left: 1em;
@@ -128,11 +141,11 @@ html body header .header-top .main-left .hamburger #menu {
   z-index: 1000;
   position: fixed;
 }
-html body header .header-top .main-left .hamburger #menu ul {
+html body header #header-top .main-left .hamburger #menu ul {
   padding: 0;
   margin: 0;
 }
-html body header .header-top .main-left .hamburger #menu ul li {
+html body header #header-top .main-left .hamburger #menu ul li {
   list-style-type: none;
   left: 0;
   padding: 0.5em;
@@ -140,38 +153,38 @@ html body header .header-top .main-left .hamburger #menu ul li {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-html body header .header-top .main-left .hamburger #menu ul li:last-child {
+html body header #header-top .main-left .hamburger #menu ul li:last-child {
   margin-top: 0.5em;
   padding-top: 1em;
   border-top: 1px solid #000000;
 }
-html body header .header-top .main-left .hamburger #menu ul li:hover {
+html body header #header-top .main-left .hamburger #menu ul li:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-html body header .header-top .main-left .text-1 {
+html body header #header-top .main-left .text-1 {
   height: 33%;
   text-align: center;
   padding-left: 1em;
 }
-html body header .header-top .main-left .text-1 .text-box-1 {
+html body header #header-top .main-left .text-1 .text-box-1 {
   font-size: 40px;
   text-align: left;
 }
-html body header .header-top .main-left .text-2 {
+html body header #header-top .main-left .text-2 {
   height: 33%;
   text-align: center;
   padding-left: 1em;
 }
-html body header .header-top .main-left .text-2 .text-box-2 {
+html body header #header-top .main-left .text-2 .text-box-2 {
   font-size: 16px;
   text-align: left;
 }
-html body header .header-top .main-right {
+html body header #header-top .main-right {
   width: 77%;
   height: 550px;
 }
-html body header .header-top .main-right .sea-picture {
+html body header #header-top .main-right .sea-picture {
   height: 550px;
   background: url(../image/sea.jpg) no-repeat top center;
   background-size: cover;
@@ -336,4 +349,45 @@ html body main .web-main .web-text {
   background-size: 65%;
   border-top: 8px solid #3f2c2e;
   border-bottom: 8px solid #3f2c2e;
+}
+html body main .web-main .web-1 {
+  width: 100%;
+  height: 134vw;
+  background: url(../image/web-1.jpg) no-repeat top center;
+  background-size: 100%;
+}
+html body main .web-main .web-2 {
+  width: 100%;
+  height: 117vw;
+  margin-top: 1em;
+  background: url(../image/web-2.jpg) no-repeat top center;
+  background-size: 100%;
+}
+html body main .web-main .web-5 {
+  width: 100%;
+  height: 64vw;
+  margin-top: 1em;
+  background: url(../image/web-3.jpg) no-repeat top center;
+  background-size: 100%;
+}
+html body main .web-main .web-4 {
+  width: 100%;
+  height: 49vw;
+  margin-top: 1em;
+  background: url(../image/web-4.jpg) no-repeat top center;
+  background-size: 100%;
+}
+html body main .web-main .web-3 {
+  width: 100%;
+  height: 68.6vw;
+  margin-top: 1em;
+  background: url(../image/web-5.jpg) no-repeat top center;
+  background-size: 100%;
+}
+html body main .web-main .web-6 {
+  width: 100%;
+  height: 68.6vw;
+  margin-top: 1em;
+  background: url(../image/web-6.jpg) no-repeat top center;
+  background-size: 100%;
 }
