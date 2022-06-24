@@ -1,0 +1,120 @@
+@charset "UTF-8";
+html body {
+  width: 100%;
+  height: auto;
+  font-family: 微軟正黑體 !important;
+  position: relative;
+  border: 8px solid #3f2c2e;
+  border-bottom: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body #GotoTop {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 60%;
+  position: fixed;
+  right: 8px;
+  bottom: 13px;
+  font-size: 3.5vh;
+  text-align: center;
+  color: #000;
+}
+html body header {
+  width: 100%;
+  height: auto;
+  font-family: 微軟正黑體 !important;
+}
+html body header #header-top {
+  width: 100%;
+  height: 550px;
+  background: #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body header #header-top .main-left {
+  width: 10%;
+  height: 550px;
+  z-index: 1000;
+}
+html body header #header-top .main-left .hamburger-in {
+  height: 33%;
+  display: inline;
+}
+html body header #header-top .main-left .hamburger {
+  height: 33%;
+  /*Cursor on toggle button hover*/
+  /*Changing color of hamburger lines on hover*/
+  /*Styles for the hamburger lines*/
+  /*No margin-bottom for last hamburger line.*/
+  /*List container*/
+  /*List*/
+  /*List items*/
+  /*Subscribe link*/
+  /*Cursor and text undelrine on hover*/
+  /*Background and text colour change on click*/
+}
+html body header #header-top .main-left .hamburger #menu-btn {
+  position: absolute;
+  left: 0.3em;
+  top: 1em;
+  width: 3em;
+  padding: 1.5em;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: fixed;
+}
+html body header #header-top .main-left .hamburger #menu-btn:hover {
+  cursor: pointer;
+}
+html body header #header-top .main-left .hamburger .menu-btn-line {
+  height: 0.2em;
+  background-color: #000000;
+  margin-bottom: 0.5em;
+}
+html body header #header-top .main-left .hamburger .menu-btn-line:last-child {
+  margin-bottom: 0;
+}
+html body header #header-top .main-left .hamburger #menu {
+  position: absolute;
+  top: 7em;
+  left: 1em;
+  border: 0.5em solid #98c3d4;
+  width: 10em;
+  padding: 1em;
+  background: #ffffff;
+  z-index: 1000;
+  position: fixed;
+}
+html body header #header-top .main-left .hamburger #menu li a {
+  color: #000000;
+  text-decoration: none;
+}
+html body header #header-top .main-left .hamburger #menu li a:active {
+  color: #000000;
+}
+html body header #header-top .main-left .hamburger #menu ul {
+  padding: 0;
+  margin: 0;
+}
+html body header #header-top .main-left .hamburger #menu ul li {
+  list-style-type: none;
+  left: 0;
+  padding: 0.5em;
+  color: #000000;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+html body header #header-top .main-left .hamburger #menu ul li:last-child {
+  margin-top: 0.5em;
+  padding-top: 1em;
+  border-top: 1px solid #000000;
+}
+html body header #header-top .main-left .hamburger #menu ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
