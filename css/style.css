@@ -624,10 +624,18 @@ html body header #header-top .main-right2 .portfolio-box ul li {
     width: 77%;
     line-height: 4.3vw;
   }
+  html body header #header-top .main-right2 .portfolio-box .name {
+    font-size: 4vw;
+  }
+  html body header #header-top .main-right2 .portfolio-box .name2 {
+    font-size: 3.3vw;
+    margin-bottom: 3vw;
+  }
   html body header #header-top .main-right2 .portfolio-box ul {
-    margin-bottom: 1vw;
+    margin-bottom: 5vw;
   }
   html body header #header-top .main-right2 .portfolio-box ul li {
     font-size: 4vw;
+    line-height: 2vw;
   }
 }

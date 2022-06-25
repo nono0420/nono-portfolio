@@ -198,10 +198,19 @@ html body {
                 width: 77%;
                 line-height: 4.3vw;
 
+                .name {
+                  font-size: 4vw;
+                }
+                .name2 {
+                  font-size: 3.3vw;
+                  margin-bottom: 3vw;
+                }
+
                 ul {
-                  margin-bottom: 1vw;
+                  margin-bottom: 5vw;
                   li {
                     font-size: 4vw;
+                    line-height: 2vw;
                   }
                 }
               }
