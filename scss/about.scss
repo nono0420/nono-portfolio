@@ -197,6 +197,13 @@ html body {
               .portfolio-box {
                 width: 77%;
                 line-height: 4.3vw;
+
+                ul {
+                  margin-bottom: 1vw;
+                  li {
+                    font-size: 4vw;
+                  }
+                }
               }
             }
           }
