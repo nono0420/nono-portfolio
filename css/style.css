@@ -207,6 +207,7 @@ html body header .marquee {
   margin-top: 20px;
 }
 html body header .marquee marquee {
+  width: 100%;
   color: #000000;
   font-size: 23px;
   font-weight: 400;
@@ -342,6 +343,11 @@ html body main #banner-main .banner-5 {
   background-size: 100%;
   margin-bottom: 1em;
 }
+@media (max-width: 480px) {
+  html body main #banner-main .banner {
+    margin-bottom: 0.3em;
+  }
+}
 html body main #web-main {
   height: auto;
   display: -webkit-box;
@@ -398,6 +404,11 @@ html body main #web-main .web-6 {
   margin-top: 1em;
   background: url(../image/web-6.jpg) no-repeat top center;
   background-size: 100%;
+}
+@media (max-width: 480px) {
+  html body main #web-main .web {
+    margin-top: 0.3em;
+  }
 }
 html body main .profile {
   width: 45%;
@@ -559,6 +570,7 @@ html body header #header-top .main-right2 {
   padding: 5vw 0 0 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-bottom: 8vw;
 }
 html body header #header-top .main-right2 .aboutme {
   width: 36%;

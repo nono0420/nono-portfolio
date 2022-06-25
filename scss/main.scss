@@ -169,6 +169,7 @@ html body {
         margin-top: 20px;
 
         marquee {
+          width: 100%;
           color: #000000;
           font-size: 23px;
           font-weight: 400;
@@ -306,6 +307,12 @@ html body {
           background-size: 100%;
           margin-bottom: 1em;
         }
+
+        @media (max-width:480px){
+          .banner {
+            margin-bottom: 0.3em;
+          }
+        }
       }
 
       #web-main {
@@ -362,6 +369,13 @@ html body {
           margin-top: 1em;
           background: url(../image/web-6.jpg)no-repeat top center;
           background-size: 100%;
+        }
+
+        
+        @media (max-width:480px){
+          .web {
+            margin-top: 0.3em;
+          }
         }
       }
 
