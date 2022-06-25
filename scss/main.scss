@@ -366,22 +366,23 @@ html body {
       }
 
       .profile {
-        width: 40%;
+        width: 45%;
         height: auto;
         margin: auto;
         text-align: center;
         margin-top: 8vw;
-        font-size: 2vw;
+        font-size: 5vw;
 
         .profile-picture {
           width: 100%;
-          height: 20vw;
-          background: url(../image/sea.jpg)no-repeat;
-          background-size: 100%;
+          height: 35vw;
+          background: url(../image/profile.jpg)no-repeat top center;
+          background-size: cover;
           margin-top: 3vw;
         }
         .name {
-          font-size: 2vw;
+          font-size: 4vw;
+          margin-top: 0.6em;
         }
         .age {
           font-size: 1.2vw;

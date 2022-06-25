@@ -400,22 +400,23 @@ html body main #web-main .web-6 {
   background-size: 100%;
 }
 html body main .profile {
-  width: 40%;
+  width: 45%;
   height: auto;
   margin: auto;
   text-align: center;
   margin-top: 8vw;
-  font-size: 2vw;
+  font-size: 5vw;
 }
 html body main .profile .profile-picture {
   width: 100%;
-  height: 20vw;
-  background: url(../image/sea.jpg) no-repeat;
-  background-size: 100%;
+  height: 35vw;
+  background: url(../image/profile.jpg) no-repeat top center;
+  background-size: cover;
   margin-top: 3vw;
 }
 html body main .profile .name {
-  font-size: 2vw;
+  font-size: 4vw;
+  margin-top: 0.6em;
 }
 html body main .profile .age {
   font-size: 1.2vw;
@@ -430,4 +431,197 @@ html body main .profile .more {
 }
 html body main .profile .more:hover {
   color: #81aabd;
+}
+
+html body {
+  width: 100%;
+  height: auto;
+  font-family: 微軟正黑體 !important;
+  position: relative;
+  border: 8px solid #3f2c2e;
+  border-bottom: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body #GotoTop {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 60%;
+  position: fixed;
+  right: 8px;
+  bottom: 13px;
+  font-size: 3.5vh;
+  text-align: center;
+  color: #000;
+}
+html body header {
+  width: 100%;
+  height: auto;
+  font-family: 微軟正黑體 !important;
+}
+html body header #header-top {
+  width: 100%;
+  height: auto;
+  background: #eeeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body header #header-top .main-left2 {
+  width: 7%;
+  height: auto;
+  z-index: 1000;
+}
+html body header #header-top .main-left2 .hamburger-in {
+  height: 33%;
+  display: inline;
+}
+html body header #header-top .main-left2 .hamburger {
+  height: 33%;
+  /*Cursor on toggle button hover*/
+  /*Changing color of hamburger lines on hover*/
+  /*Styles for the hamburger lines*/
+  /*No margin-bottom for last hamburger line.*/
+  /*List container*/
+  /*List*/
+  /*List items*/
+  /*Subscribe link*/
+  /*Cursor and text undelrine on hover*/
+  /*Background and text colour change on click*/
+}
+html body header #header-top .main-left2 .hamburger #menu-btn {
+  position: absolute;
+  left: 0.3em;
+  top: 1em;
+  width: 3em;
+  padding: 1.5em;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  position: fixed;
+}
+html body header #header-top .main-left2 .hamburger #menu-btn:hover {
+  cursor: pointer;
+}
+html body header #header-top .main-left2 .hamburger .menu-btn-line {
+  height: 0.2em;
+  background-color: #000000;
+  margin-bottom: 0.5em;
+}
+html body header #header-top .main-left2 .hamburger .menu-btn-line:last-child {
+  margin-bottom: 0;
+}
+html body header #header-top .main-left2 .hamburger #menu {
+  position: absolute;
+  top: 7em;
+  left: 1em;
+  border: 0.5em solid #98c3d4;
+  width: 10em;
+  padding: 1em;
+  background: #ffffff;
+  z-index: 1000;
+  position: fixed;
+}
+html body header #header-top .main-left2 .hamburger #menu li a {
+  color: #000000;
+  text-decoration: none;
+}
+html body header #header-top .main-left2 .hamburger #menu li a:active {
+  color: #000000;
+}
+html body header #header-top .main-left2 .hamburger #menu ul {
+  padding: 0;
+  margin: 0;
+}
+html body header #header-top .main-left2 .hamburger #menu ul li {
+  list-style-type: none;
+  left: 0;
+  padding: 0.5em;
+  color: #000000;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+html body header #header-top .main-left2 .hamburger #menu ul li:last-child {
+  margin-top: 0.5em;
+  padding-top: 1em;
+  border-top: 1px solid #000000;
+}
+html body header #header-top .main-left2 .hamburger #menu ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+html body header #header-top .main-right2 {
+  width: 89%;
+  height: auto;
+  display: block;
+  padding: 5vw 0 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html body header #header-top .main-right2 .aboutme {
+  width: 36%;
+  margin: auto;
+  font-size: 4vw;
+  color: #000000;
+  padding: 5vw 0 0 0;
+  margin-bottom: 4vw;
+  text-align: center;
+}
+html body header #header-top .main-right2 .profile-img {
+  width: 36%;
+  height: 26vw;
+  background: url(../image/profile.jpg) no-repeat top center;
+  background-size: cover;
+  margin: auto;
+}
+@media (max-width: 975px) {
+  html body header #header-top .main-right2 .aboutme {
+    font-size: 6vw;
+    margin-bottom: 8vw;
+  }
+  html body header #header-top .main-right2 .profile-img {
+    width: 45%;
+    height: 33vw;
+  }
+}
+@media (max-width: 480px) {
+  html body header #header-top .main-right2 .profile-img {
+    width: 80%;
+    height: 70vw;
+  }
+}
+html body header #header-top .main-right2 .portfolio-box {
+  width: 50%;
+  height: auto;
+  margin: 3vw auto;
+  line-height: 2vw;
+}
+html body header #header-top .main-right2 .portfolio-box .name {
+  font-size: 2vw;
+}
+html body header #header-top .main-right2 .portfolio-box .name2 {
+  font-size: 1.3vw;
+  margin-bottom: 1vw;
+}
+html body header #header-top .main-right2 .portfolio-box ul {
+  margin-bottom: 3vw;
+}
+html body header #header-top .main-right2 .portfolio-box ul li {
+  font-size: 1.2vw;
+}
+@media (max-width: 975px) {
+  html body header #header-top .main-right2 {
+    padding: 6vw 0 0 0;
+  }
+}
+@media (max-width: 480px) {
+  html body header #header-top .main-right2 {
+    padding: 18vw 0 0 0;
+  }
+  html body header #header-top .main-right2 .portfolio-box {
+    width: 77%;
+    line-height: 4.3vw;
+  }
 }
