@@ -72,6 +72,7 @@ html body #GotoTop {
   font-size: 3.5vh;
   text-align: center;
   color: #000;
+  z-index: 999;
 }
 html body header {
   width: 100%;
@@ -403,6 +404,13 @@ html body main #web-main .web-6 {
   height: 68.6vw;
   margin-top: 1em;
   background: url(../image/web-6.jpg) no-repeat top center;
+  background-size: 100%;
+}
+html body main #web-main .web-7 {
+  width: 100%;
+  height: 105vw;
+  margin-top: 1em;
+  background: url(../image/web-7.jpg) no-repeat top center;
   background-size: 100%;
 }
 @media (max-width: 480px) {
